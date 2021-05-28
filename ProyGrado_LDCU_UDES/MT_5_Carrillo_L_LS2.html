@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lexia Secundaria: Pseudocódigo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style TYPE="text/css">
+            <!--
+            BODY {
+                background: #EEECE1;
+                color: black;
+            }
+            
+            #navegador ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            #navegador li{
+                display: inline;
+                text-align: center;
+                margin: 0 10px 0 0;
+            }
+            #navegador li a {
+                padding: 88px 7px 2px 7px;
+                color: #666;
+                background-color: #eeeeee;
+                border: 1px solid #ccc;
+                text-decoration: none;
+            }
+            #navegador li a:hover{
+                background-color: #333333;
+                color: #ffffff;
+            }
+            
+            #Encab { text-align: center; color: navy; background-color:#948A54; border-radius: 10px; height: 45px;}
+            #parraf_1, #parraf_2, #parraf_5 { font: 16pt serif; margin-left: 5%; margin-right: 5%; margin-bottom: 5%; }
+            #parraf_3 { font: 16pt serif; margin-left: 5%; margin-right: 5%; margin-bottom: 5%; align-content: center }
+            #resalt { color: red; }
+            #retorno_inf { text-align: center; }
+            #Alt_persona, #Alt_persona_inic, #Alt_persona_fin { font: 16pt serif; margin-left: 5%; margin-right: 5%; margin-bottom: 5%; }
+            #Pseudo_alt_pers { text-align: left; color: brown; margin-left: 5%; margin-right: 5%; }
+            #imag1 { margin-bottom: 20px; margin-left: 180px; margin-right: 180px; }
+            #imag2 { margin-bottom: 20px; margin-left: 20px; }
+            #Webgraf { text-align: center; color: red; background-color:#DDD9C3; border-radius: 10px; height: 45px; margin-left: 5%; margin-right: 5%; }
+            #parraf_4, #List_libros, #List_pseudocod { font: 16pt serif; margin-left: 5%; margin-right: 5%; }
+            -->
+        </style>
+
+    </head>
+    <body>
+        <div id="Encab">
+            <h1>Pseudocódigo</h1><br><br><br>
+        </div><br>
+        <div>
+            <a href="MT_5_Carrillo_L_LP1.html"><img id="icono_flecha_retorno" src="imagenes/flecha_retorno_lexprinc.png" title="Retorno a Lexia Principal"></a><br>
+        </div>
+        <div id="navegador">
+            <ul>
+                <li><audio src="audio/LS2_pseudocod.mp3" preload="none" controls title="Audio Lexia Secundaria 2"></audio></li>
+            </ul>
+        </div>
+        <div>
+            <p id="parraf_1">La razón básica del <b id="resalt">pseudocódigo</b> es lograr la representación de forma muy detallada, de una posible solución a un algoritmo; e igualmente muy parecida al lenguaje en que se codificará dicha solución. <br><br>Los <b id="resalt">Pseudocódigos</b> son la descripción flexible y muy parecida a nuestro lenguaje natural, de algoritmos de forma similar a un lenguaje de programación, pero sin su sintaxis estricta. Tienen la ventaja de ser más concisos que los diagramas de flujo, facilitando escribir instrucciones complejas y transferibles a los lenguajes de programación. El <b id="resalt">pseudocódigo</b> no está regido por ningún estándar formal. Por ejemplo, en nuestro contexto particular usaremos la palabra LEER para la lectura de datos por un programa (que recibe datos desde algún sitio), e IMPRIMIR para la salida de datos (que escribe información en algún medio). <br><br>Según la autora Analía Lanzillotta: "Considerado como un lenguaje falso, el pseudocódigo es un lenguaje intermedio entre nuestro lenguaje y el de programación, debido a que quien lo utiliza se guía por una serie de normas, pero sin llegar a usar una estructura tan rígida como la del lenguaje de programación.”
+                <br><br>El siguiente es el pseudocódigo del algoritmo para calcular la altura de una persona en pies a partir de la altura en centímetros introducida por el teclado (1 pie=30.48 centímetros):
+            </p>
+        </div>
+        <div id="Pseudo_alt_pers">
+            <p id="Alt_persona_inic">Inicio</p>
+                <ol id="Alt_persona">
+                    <li>IMPRIMIR ’Introduce la altura en centímetros: ’<br><br></li>
+                    <li>LEER: altura<br><br></li>
+                    <li>CALCULAR pies = altura / 30.48<br><br></li>
+                    <li>IMPRIMIR ’La altura en pies es : ’, pies<br></li>
+                </ol>
+            <p id="Alt_persona_fin">Fin</p>
+        </div>
+        <div>
+            <p id="parraf_2">
+                A continuación,se muestra un sencillo Algoritmo, y su correspondiente Pseudocódigo, donde vemos la flexibilidad ya que en lugar de las palabras LEER/IMPRIMIR, se utilizan equivalentemente las palabras Capture/Mostrar.
+            </p>
+            <p id="parraf_3"><img id="imag1" src="imagenes/imag1_LS2.png" width="724" height="384" align="center" alt="imag1_LS2"/></p>
+        </div>
+        <div>
+            <p id="parraf_4">
+                El <b id="resalt">pseudocódigo</b> nació como un lenguaje similar al inglés y como medio para representar básicamente las estructuras de control de programación estructurada. Es un primer borrador, dado que tiene que traducirse posteriormente a un lenguaje formal de programación, ya que el pseudocódigo no se puede ejecutar en una computadora, si bien existen programas computacionales para crear los pseudocódigos.
+                <br><br><br>El objetivo del pseudocódigo es centrarse más en la solución del algoritmo o el diseño de un software, que en el programa que se utiliza para crearlo. Porque es más fácil de manipular el pseudocódigo que el lenguaje de programación en sí, adicionalmente porque es más fácil de codificar. 
+                <br><br><br>Por ejemplo, al hacer un software con un fin determinado, se utiliza un pseudocódigo propio en donde se mezclan el lenguaje coloquial y palabras de lenguaje de programación, y una vez se logra formalizar el software, se puede realizar la transformación al lenguaje de programación definitivo a utilizar.
+                <br><br><br>Al ser el <b id="resalt">pseudocódigo</b> un lenguaje intermedio, no tiene una composición estándar que implique a todos los programadores utilizando la misma sintaxis exacta. Así mismo, siendo una herramienta como paso previo al lenguaje formal de programación, es fácil de transformar al que se ejecutará en la computadora.
+                <br><br><br>Todo pseudocódigo debe posibilitar la descripción de los siguientes elementos:</p>
+                <ul id="List_pseudocod">
+                    <li>Instrucciones de entrada/salida.<br></li>
+                    <li>Instrucciones de proceso.<br></li>
+                    <li>Sentencias de control de flujo de ejecución.<br></li>
+                    <li>Acciones compuestas (subprogramas).<br></li>
+                    <li>Comentarios que empiezan con los símbolos **.</li>
+                </ul>
+            <p id="parraf_5">
+                <br><br><br><img id="imag2" src="imagenes/imag2_LS2.png" width="451" height="312" align="right" alt="imag2_LS2"/><br><br><br><br><br>Para finalizar esta lexia y dado que una imagen vale más que las palabras, este sencillo ejemplo de Pseudocódigo, y su correspondiente Diagrama de Flujo:
+            </p><br><br><br><br>
+        </div><br><br>
+        <div id="Webgraf">
+            <h1><b>WEBGRAFIA</b></h1><br><br><br>
+        </div>
+        <div><br>
+            <ul id="List_libros">
+                    <li>Algoritmos y estructuras de programación.<br>http://departamento.us.es/edan/php/asig/LICFIS/LFIPC/Tema5FISPC0809.pdf<br><br></li>
+                    <li>Programación Computacional. <br>http://informaticabachilleratoitea.blogspot.com/<br><br></li>
+                    <li>Fundamentos de Programación<br>http://informatica.gonzalonazareno.org/plataforma/course/view.php?id=2</li>
+            </ul>
+        </div><br><br><br>
+        
+        <div id="retorno_inf">
+            <a href="MT_5_Carrillo_L_LP1.html"><img id="icono_flecha_retorno" src="imagenes/flecha_retorno_lexprinc.png" title="Retorno a Lexia Principal"></a><br>
+        </div>
+        <br><br><br><br>
+        
+    </body>
+</html>

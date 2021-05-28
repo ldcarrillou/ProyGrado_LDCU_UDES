@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lexia Secundaria: Algoritmos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style TYPE="text/css">
+            <!--
+            BODY {
+                background: #EEECE1;
+                color: black;
+            }
+            
+            #navegador ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            #navegador li{
+                display: inline;
+                text-align: center;
+                margin: 0 10px 0 0;
+            }
+            #navegador li a {
+                padding: 88px 7px 2px 7px;
+                color: #666;
+                background-color: #eeeeee;
+                border: 1px solid #ccc;
+                text-decoration: none;
+            }
+            #navegador li a:hover{
+                background-color: #333333;
+                color: #ffffff;
+            }
+            
+            #Encab { text-align: center; color: navy; background-color:#948A54; border-radius: 10px; height: 45px;}
+            #parraf_1, #parraf_2, #parraf_3, #parraf_4, #parraf_5, #parraf_6, #parraf_7 { font: 16pt serif; margin-left: 5%; margin-right: 5%; margin-bottom: 5%; }
+            #List_caract, #List_acciones, #List_caract_algorit, #List_libros, #List_pasos, #List_diseno { font: 16pt serif; margin-left: 5%; margin-right: 5%; }
+            #resalt { color: red; }
+            #resalt_brown { color: brown; }
+            #imag1 { margin-bottom: 20px; margin-left: 20px; }
+            #imag2 { margin-bottom: 20px; margin-right: 40px; }
+            #Bloque_caract { background-color: #DDD9C3; text-align: left; color: brown; margin-left: 5%; margin-right: 5%; }
+            #Webgraf { text-align: center; color: red; background-color:#DDD9C3; border-radius: 10px; height: 45px; margin-left: 5%; margin-right: 5%; }
+            #retorno_inf { text-align: center; }
+            -->
+        </style>
+    </head>
+    <body>
+        <div id="Encab">
+            <h1>Algoritmos</h1><br><br><br>
+        </div><br>
+        <div>
+            <a href="MT_5_Carrillo_L_LP1.html"><img id="icono_flecha_retorno" src="imagenes/flecha_retorno_lexprinc.png" title="Retorno a Lexia Principal"></a><br>
+        </div>
+        <div id="navegador">
+            <ul>
+                <li><audio src="audio/LS1_algoritmos.mp3" preload="none" controls title="Audio Lexia Secundaria 1"></audio></li>
+            </ul>
+        </div>
+        <div>
+            <p id="parraf_1">Los computadores realizan realmente determinadas tareas sencillas, tales como sumar, comparar o transferir datos; sin embargo, son más complejos los problemas que nos interesa resolver. Para resolver un problema real, debemos encontrar una estrategia de resolución y, luego precisar la secuencia de pasos sencillos (realizables en un computador) en que se descompone dicha estrategia. 
+                <br><br><br>Para simplificar la resolución de problemas complejos, podemos utilizar la estrategia de "divide y vencerás"; que en nuestro entorno de programación significa dividir dicho problema complejo en subproblemas más específicos y solucionables.
+                <br><br><br><img id="imag1" src="imagenes/imag1_LS1.png" width="305" height="270" align="right" alt="imag1_LS1"/>No todas las estrategias de resolución de los problemas se pueden implementar en un computador. Para que una estrategia pueda ser implantada en un computador debe tener estas características:</p>
+        </div>
+        <div>
+            <p id="parraf_2"></p>
+                <ul id="List_caract">
+                    <li><b id="resalt">Precisa</b>: estar compuesta de pasos bien definidos y ordenados.<br><br></li>
+                    <li><b id="resalt">Definida</b>: si se sigue más de una vez, siempre se obtendrá el mismo resultado.<br><br></li>
+                    <li><b id="resalt">Finita</b>: tener un número de pasos finito.</li>
+                </ul>
+        </div><br>
+        <div>
+            <p id="parraf_3">Un <b id="resalt">algoritmo</b> es un procedimiento o estrategia de resolución de un problema, que cumple las características anteriores. Una definición de algoritmo es: <br><br><br>Un <b id="resalt">algoritmo</b> es una serie de instrucciones para resolver un problema mediante una secuencia de pasos bien definidos, ordenados y finitos. 
+                <br><br><br>El diseño de algoritmos es descendente o "top-down", ya que a partir de un gran problema inicial realizamos varias subdivisiones jerárquicas obteniendo subproblemas cada vez más simples. A la par de estas etapas, se van obteniendo descripciones del problema cada vez más detalladas con más pasos puntuales, y por ende refinando el algoritmo.
+                <br><br><br>Las ventajas más importantes de este tipo de diseño son:<img id="imag2" src="imagenes/imag2_LS1.jpg" width="500" height="260" align="left" alt="imag2_LS1"/></p>
+                <ul id="List_diseno">
+                    <li>El problema es más fácilmente comprensible, al dividirse en partes mas simples denominadas módulos.<br><br></li>
+                    <li>Las modificaciones en dichos módulos son más sencillas.<br><br></li>
+                    <li>La comprobación de los problemas que puedan presentarse, se puede hacer más fácilmente.</li>
+                </ul>
+            <p id="parraf_7">    
+                <br>Para llegar a ser un programador eficaz se necesita aprender a resolver problemas de un modo riguroso y sistemático. La metodología de la programación se utiliza para resolver problemas mediante programas. La resolución de un problema exige el diseño de un algoritmo que resuelva el problema planteado.
+                <br><br><br>Los pasos para la resolución de un problema son:</p>
+                <ol id="List_pasos">
+                    <li>Diseño del algoritmo que describe la secuencia ordenada de pasos que conducen a la solución de un problema dado (Análisis del problema y desarrollo del algoritmo).</li>
+                    <li>Expresar el algoritmo como un programa en un lenguaje de programación adecuado (fase de codificación).</li>
+                    <li>Ejecución y validación del programa en el computador.</li>
+                </ol>
+            <p id="parraf_6">
+                <br>Para poder ejecutar un algoritmo es necesario disponer de las “herramientas” adecuadas para llevar a cabo cada uno de los pasos. En caso contrario, esos pasos a su vez, deben ser descompuestos en una secuencia (algoritmo) de pasos más simples, que sí es posible llevar a cabo. <br><br><br>Un <b id="resalt">programa de computador</b> es una sucesión de órdenes que describen un algoritmo, escritas en forma que se puedan entender por el computador. <br><br><br>En un algoritmo (y por ende en un programa) se distinguen las siguientes acciones:</p>
+        </div>
+        <div>
+            <p id="parraf_4"></p>
+                <ul id="List_acciones">
+                    <li><b id="resalt">Entrada</b>: es la información de partida que necesita el algoritmo para arrancar.<br><br></li>
+                    <li><b id="resalt">Proceso</b>: es el conjunto de todas las operaciones a realizar.<br><br></li>
+                    <li><b id="resalt">Salida</b>: son los resultados obtenidos.</li>
+                </ul>
+        </div><br>
+        <div id="Bloque_caract">
+            <p id="parraf_5"><b id="resalt_brown">Características de los Algoritmos</b></p>
+            <ul id="List_caract_algorit">
+                <li>Corrección (sin errores).<br><br></li>
+                <li>Precisión (ausencia de ambigüedades e indicar orden de realización de cada paso).<br><br></li>
+                <li>Definido (si se sigue varias veces, se obtendrá el mismo resultado cada vez).<br><br></li>
+                <li>Repetitividad (solución genérica de un problema dado).<br><br></li>
+                <li>Finito (número finito de órdenes o pasos).<br><br></li>
+                <li>Finitud (tener un fin o límite).<br><br></li>
+                <li>Eficiencia (temporal [tiempo necesario] y espacial [memoria utilizada]).<br><br></li>
+            </ul>
+        </div><br><br>
+        <div id="Webgraf">
+            <h1><b>WEBGRAFIA</b></h1><br><br><br>
+        </div>
+        <div><br>
+            <ul id="List_libros">
+                    <li>Algoritmos y estructuras de programación. <br>http://departamento.us.es/edan/php/asig/LICFIS/LFIPC/Tema5FISPC0809.pdf<br><br></li>
+                    <li>Programación Computacional. <br>http://informaticabachilleratoitea.blogspot.com/<br><br></li>
+                    <li>FASES DE CREACIÓN DE UN PROGRAMA<br>https://eudotec.wordpress.com/2016/08/01/fases-de-creacion-de-un-programa/<br><br></li>
+                    <li>Fundamentos de Programación<br>http://informatica.gonzalonazareno.org/plataforma/course/view.php?id=2</li>
+            </ul>
+        </div><br><br><br>
+        <div id="retorno_inf">
+            <a href="MT_5_Carrillo_L_LP1.html"><img id="icono_flecha_retorno" src="imagenes/flecha_retorno_lexprinc.png" title="Retorno a Lexia Principal"></a><br>
+        </div>
+        <br><br><br><br>
+        
+    </body>
+</html>

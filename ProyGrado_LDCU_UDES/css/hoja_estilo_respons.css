@@ -1,0 +1,625 @@
+/* PowerPoint 2013  v 20/07/19 */
+/* © 2010 aulaClic S.L. word 2016 Marzo-2016*/
+body {
+	background-color: #F7F0E2;
+	background-image: URL(../imagen/fondo_menu.gif);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #6B0101;
+	text-align: justify;
+	font-weight: normal;
+}
+/*Estructura*/
+div#principal {
+	
+}
+div#contenedor {
+	position: relative;
+	top: 1px;
+	left: 1px;
+	height: 100%;
+	width: 100%;
+}
+div#texto_pagina {
+	
+}
+div#publi_derecha {
+	
+}
+div#publi_entre_texto {
+	display:block;
+	position: relative;
+	left: 40px;
+	text-align: left;
+	margin: 35px;;
+}
+p#publi_abajo {
+	margin: 45px;;
+}
+
+div#contenedor.basico div#google_search, div#contenedor.avanzado div#google_search  {
+  top: -50px;
+	left: -300px;
+}
+/*estilo y colores*/
+div.basico#contenedor h1, div.basico#contenedor h2 {
+	background-image: URL(comunes/f_rotu_verde_osc.gif);
+	color: #004000;
+}
+div.avanzado#contenedor h1, div.avanzado#contenedor h2 {
+	background-image: URL(comunes/f_rotu_azul_osc.gif);
+	color: #000080;
+}
+p {
+	text-indent: 15px;
+	line-height: 1.5em;
+	margin: 15px;
+}
+.sinfloat {
+	clear: both;
+}
+.centrado {
+	text-align: center;
+	text-indent: 0;
+}
+.imgcentradas {
+	text-align: center;
+	text-indent: 0;
+}
+.imgcentradas img {
+	margin: 5px 10px;
+	vertical-align: middle;
+}
+div#pie {
+	text-align: center;
+	font-style: normal;
+	font-size: 90%;
+	clear: both;
+	margin: 0;
+}
+div#pie span.pagina {
+	float: right;
+	margin-right: 10px;
+}
+div#pie img {
+	
+	margin: 35px;
+	clear: both;
+}
+div#pie p {
+  text-indent: 0;
+}
+h1 {
+	font-size: 17px;
+	color: #800000;
+	margin-bottom: 20px;
+	font-weight:bold;
+}
+h2 {
+	font-size: 17px;
+	color: #800040;
+	margin-top: 20px;
+	margin-bottom: 0;
+	width: 55%;
+	min-width: 200px;
+	max-width: 500px;
+	clear: both;
+}
+h1, h2 {
+	background-image: URL(comunes/f_rotulo2a.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	font-weight: normal;
+	padding: 2px;
+	line-height: normal;
+	white-space: nowrap;
+	padding-left: 5px;
+}
+a img {
+	border: none;
+}
+.resaltado {
+	font-weight: bold;
+	color: #6C6CCA;
+}
+.opciones {
+	font-weight: bold;
+	color: #008000;
+}
+.ventanas {
+	font-weight: bold;
+	color: #800000;
+}
+.valores {
+	font-style: italic;
+	font-weight: bold;
+}
+div#logo {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+div#menuSup {
+	position: absolute;
+	top: 25px;
+	left: 160px;
+	display:block;
+}
+div#menuSup1 {
+	position: absolute;
+	top: 35px;
+	left: 150px;
+	display: none;
+}
+div#menuSup2 {
+	position: absolute;
+	top: 75px;
+	left: 10px;
+	display: none;
+}
+
+img.derecha, img.derecha_movabajo, img.derecha_movarriba {
+	float: right;
+	margin: 5px 15px 15px;
+}
+img.izquierda, img.izquierda_movabajo, img.izquierda_movarriba {
+	float: left;
+	margin: 5px 15px 15px;
+}
+img.enlinea {
+	vertical-align: middle;
+}
+dl {
+	margin: 0 15px 15px 15px;
+	line-height: 1.5;
+}
+dt {
+	padding-left: 18px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+dt.bolita, dl.bolita dt {
+	background-image: url(comunes/orangeball.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+ul.bolita {
+	list-style-image: url(comunes/orangeball.gif);
+}
+li {
+	line-height: 1.5;
+	margin-bottom: 10px;
+	margin-right: 15px
+}
+kbd {
+	font-size: 95%;
+	font-family: "Courier New", Courier, monospace;
+}
+p.sinindent {
+	text-indent: 0;
+}
+table#evaluaciones {
+	margin-left: auto;
+	margin-right: auto;
+}
+table#evaluaciones td {
+	font-weight: bold;
+	padding-top: 10px;
+}
+table#evaluaciones p {
+	font-weight: normal;
+	text-indent: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+table#ejyev {
+	width: 90%;
+	text-align: center;
+  margin: 20px auto 0;
+	clear: both;
+}
+table#ejyev td {
+	margin: 3px;
+	height: 4em;
+	width: 45%;
+	border: #8F4747 3px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.enlacesecuencia {
+	text-align: right;
+	margin-top: -20px
+}
+pre {
+	background-color: #FBFBFB;
+	color: #333;
+	font-size: 100%;
+	border: #666 1px solid;
+	padding: 15px;
+	margin: 15px 20px;
+	max-height: 500px;
+	overflow: auto;
+}
+pre span.coment {
+	color: #BBB;
+}
+pre span.valores {
+	color: black;
+}
+code {
+	background-color: #FBFBFB;
+	color: #333;
+	font-size: 100%;
+}
+hr.salto_pagina, hr.salto_pagina_movil {
+	display: none;
+}
+li.sinbullet {
+	list-style-type: none;
+}
+
+table.info{
+	  width:90%;
+	  border:none;
+	  margin: 5px 15px 5px 15px;
+	  }
+  .info th {
+	  background-color:#ebf8e6;
+	  border:1px solid #32ad15;
+	  text-align:center;
+	  }
+  .info td {
+	  border-right: #d6e5f5 1px solid;
+	  border-bottom: #d6e5f5 1px solid;
+	  background-color:#fcfcfc;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	   }
+   .titulo_tabla {
+	   color:#228a21;
+	   font-weight:bold;
+	   }
+	   
+/* ESTILOS PARA TABLAS de PowerPoint 2010*/
+
+/* Tablas de información*/
+  .info th {
+	  background-color:#F6ECE9;
+	  border:1px solid #F57231;
+	  }
+  .titulo_tabla {
+	   color:#DE4D18;
+	   font-weight:bold;
+	   }
+/*para menu 2014 */
+.tdBoton {
+
+	background-image: url(../imagen/fondo-menu-marron2.png);
+
+	background-repeat: repeat-x;
+
+	background-position: 0px 0px;
+
+	border-top-style: solid;
+
+	border-right-style: solid;
+
+	border-bottom-style: solid;
+
+/*	border-left-style: solid; */
+
+	border-top-color: #F7F0E2;
+
+	border-right-color: #F7F0E2;
+
+	border-bottom-color: #F7F0E2;
+
+/*	border-left-color: #F7F0E2;*/
+
+	border-top-width: 1px;
+
+	border-right-width: 1px;
+
+	border-bottom-width: 1px;
+
+	border-left-width: 3px;
+
+	width: 0px;
+
+	height: 35px;
+
+	margin: 0px;
+
+}
+.tdBotonTitulo {
+
+	background-image: url(../imagen/fondo-menu-gris2.png);
+
+	background-repeat: repeat-x;
+
+	background-position: 0px 0px;
+
+	border-top-style: solid;
+
+	border-right-style: solid;
+
+	border-bottom-style: solid;
+
+/*	border-left-style: solid; */
+
+	border-top-color: #F7F0E2;
+
+ border-right-color: #F7F0E2; 
+	border-bottom-color: #F7F0E2;
+
+/*	border-left-color: #F7F0E2;*/
+
+	border-top-width: 1px;
+
+	border-right-width: 3px;
+
+	border-bottom-width: 1px;
+
+	border-left-width: 3px;
+
+	width: 0px;
+
+	height: 35px;
+
+	margin: 0px;
+
+}
+
+.tdBoton:hover {
+
+	background-image: url(../imagen/fondo-menu-marron-hover2.png);
+
+	background-repeat: repeat-x;
+  
+}
+.sin-sub-azul:hover {
+
+	background-image: none;
+
+	background-repeat: no-repeat;
+
+	color: #600;
+
+}
+.texto-menu {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size:  medium;
+
+	color: #ffffff;
+
+	text-decoration: none;
+
+	font-weight: normal;
+
+}
+.imagen_flota {
+
+	clear: none;
+
+	float: none;
+
+	position: absolute;
+
+	visibility: visible;
+
+	top: -9px;
+
+	border: 1;
+
+	left: 0px;
+
+}
+div#menu_pie {
+	 /* background-color:#744541; */
+	  background-color: #A0605A; 
+	  color: #FFF4D5;
+	  text-decoration: none;
+	  
+}
+.ama {
+	font-weight: bold;
+	color: #f7f4ac;
+	text-decoration:none;
+}
+.ama:hover {
+	color: #ffffff;
+}
+.ss {
+	color: #FFF4D5;
+	text-decoration:none;
+}
+.ss:hover {
+	color: #ffffff;
+}
+
+div#fondo_invertido {
+	
+	background-image: URL(../imagen/fondo_menu_invertido.gif);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	
+}
+ul#sinPunto {
+	list-style-type: none;
+}
+ul#conPunto {
+	list-style-type: disc;
+}
+#cookies_law {
+    display:none;
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding-bottom:5px;
+    width:100%;
+    text-align:center;
+    min-height:80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:#fff;
+    z-index:99999;
+}
+.in_cookie {
+    width:100%;
+    position:absolute;
+    padding-left:5px;
+    font-family:verdana;
+    font-size:12;
+    top:10%;
+}
+.in_cookie a.ok_cookie {
+    padding:4px;
+    color:#faff00;
+    text-decoration:none;
+}
+ @media (min-width: 401px) and (max-width: 1600px) {
+	 body {
+	font-size: 15px;
+}
+h1,h2 {
+	font-size: 17px;
+}
+
+
+  }
+ /* fin  400 y 1400 */
+  
+ @media (min-width: 1601px)  {
+	 body {
+	font-size: 26px;
+	 }
+h1,h2 {
+	font-size: 28px;
+
+}
+div#flechasMenuDos,div#flechasMenuTres {
+	display:block;
+}
+
+  } 
+
+  
+  @media (max-width: 820px)  {
+div#flechasMenuTres {
+	display:none;
+}
+  }
+
+ @media (max-width: 700px)  {
+div#flechasMenuDos {
+	display:none;
+}
+  }
+   @media (max-width: 400px)  {
+	 body {
+	font-size: 17px;
+	 }
+  }
+
+
+img {
+   max-width: 100%;
+    height: auto;
+}
+div#publi_adaptable {
+	margin: 5px;;
+}
+div#lista-pie {
+	background-color: #A0605A; 
+	padding-right: 5px;;
+	padding-left: 5px;
+
+}
+div#lista-pie1 {
+	float:left;
+	color: #FFF4D5;
+	text-decoration: none;
+	height: 100%;
+	text-align: left;
+}
+
+div#pie-sobre {
+	text-align: center;
+	 color:#660000;
+}
+div#flechasAbajo {
+	margin:0 auto;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	text-align: center;
+}
+div#flechasMenuDos {
+	float: left; text-align:left ; height: 55px; border:#CC0033 0px solid;  margin-top:3px;  margin-bottom:3px;  margin-left:1px; margin-right:0px; padding-top:16px;  min-width:104px;
+}
+div#flechasMenuTres {
+	float: left; text-align:left ; height: 55px; border:#CC0033 0px solid;  margin-top:3px; margin-bottom:3px;  margin-left:0px margin-right:1px; padding-top:16px;  min-width:104px;
+}
+ div#menuContenedor {
+	 position:relative;  width: 100%; left:5; margin: 3px;
+ }
+ div#logoCursoCont {
+	 float: left; min-width:255px 
+ }
+div#menuLogo {
+	float: left; width: 150px; height: 65px; border:#CC0033 0px solid;  margin:3px;  padding:1px
+}
+div#menuCurso {
+	float:left; padding-top: 25px; min-width:105px; font-family: Arial, Helvetica, sans-serif; font-size:  17px; font-weight:bold; color:#000000; text-align:left }
+div#flechasContenedor {
+	float: left; text-align:left ; height: 55px; border:#CC0033 0px solid;  margin:3px; padding-top:16px;  min-width:310px;
+}
+.lineaPieTexto {
+	font-family: Arial, Helvetica, sans-serif; font-size: smaller; font-weight:bold; color: #800000; text-align:left
+}
+ div#redesSociales {
+	 margin: 0 auto
+ }
+ div#fechaIzquierda {
+	  width: 49%; float: left; color:#C00; margin-left: 10px
+ }
+ div#nunPagDerecha {
+	  width: 40%;float: right; text-align:right; color:#C00; margin-right: 10px
+}
+.sinIdent {
+	text-indent: 1px;
+	line-height: 1.5em;
+	margin-left: 5px;
+}
+div#search2015 {
+	position: relative;
+	left: 4px;
+	text-align: left;
+	margin: 5px;
+	width:300px;
+}
+.contenedor_video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}	
+ .contenedor_video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+video {
+  max-width: 100%;
+  height: auto;
+} 

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Evaluación Post Competencias</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+		var previous = "ev_7_16_1.htm";
+		var home     = "t_8_3.htm#ejyev";
+		var next     = "ev_9_17_1.htm";
+		
+//var totalRespuestas=12;
+//--><!]]></script>
+        <script src="js/evaluac_postcompet.js" type="text/javascript"></script>
+        <script type="text/javascript"><!--//--><![CDATA[//><!--
+<!--
+//var Resp=new crearArray(totalRespuestas);
+
+
+
+//var acla = new crearArray(totalRespuestas);
+acla[1]="";
+
+
+//--><!]]>
+	</script>
+        <link href="css/hoja_estilo_respons.css" rel="stylesheet" type="text/css" title="HojaEstiloResponsive" />
+    </head>
+    <body>
+        <form name="form_evalpostc" method="post" action="php/EvalPostCompet.php">
+	<p class="sinindent">S&oacute;lo una respuesta es v&aacute;lida por pregunta. 
+	Haz clic en la respuesta que consideres correcta. <br />
+   	Contesta todas las preguntas y haz clic en el bot&oacute;n <span class="verde">Corregir</span> 
+   	para ver la soluci&oacute;n, y luego haz clic en el bot&oacute;n Guardar Evaluación para registrar tus resultados. <br />
+	Si pulsas <span class="verde">Restablecer</span> podr&aacute;s repetir la 
+    	evaluaci&oacute;n.</p>
+        
+        <p>Nombre y Apellido Estudiante:
+            <input type="text" name="Nombre" id="textfield">
+        </p>
+        <p>Sexo del Estudiante:
+            <label>
+                <input type="radio" name="Sexo" value="Masculino" id="RadioGroup1_0" />
+            M</label>
+            <label>
+                <input type="radio" name="Sexo" value="Femenino" id="RadioGroup1_1" />
+            F</label>
+        </p>
+        <input type="hidden" name="Resp" id="Resp" value="">
+        <input type="hidden" name="Num_correctas" id="Num_correctas" value="">
+        <input type="hidden" name="Resp_correctas" id="Resp_correctas" value="">
+        <input type="hidden" name="Resp_erradas" id="Resp_erradas" value="">
+        
+	<table border="0" id="evaluaciones">
+        <tr>
+            <td>1. <span class="peque">La programación informática sirve para:</span>
+              <p><label><script type="text/javascript">dibujarRadio('1', 'a');</script></label>
+              Hacer aplicaciones web y móviles, Restaurar programas computacionales</p>
+              <p><label><script type="text/javascript">dibujarRadio('1', 'b');</script>
+                Diseñar paradigmas de programación, Diseñar código fuente de software</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('1', 'c');</script>
+                Codificar código fuente de software, Escribir un juego</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('1', 'd');</script>
+                Hacer backup de software, Restaurar programas computacionales</label></p>
+          </td>
+      </tr>
+      <tr>
+          <td>2. <span class="peque">Un algoritmo puede ser:</span>
+            <p><label><script type="text/javascript">dibujarRadio('2', 'a');</script>
+                Conjunto de operaciones sistemáticas, Entrada – Proceso – Salida</label>
+              </p>
+          <p><label><script type="text/javascript">dibujarRadio('2', 'b');</script>
+            Procedimiento o estrategia de resolución, Serie de instrucciones</label>
+              </p>
+          <p><label><script type="text/javascript">dibujarRadio('2', 'c');</script>
+            Herramientas adecuadas, Entrada – Proceso – Salida</label>
+              </p>
+          <p><label><script type="text/javascript">dibujarRadio('2', 'd');</script>
+            Sucesión de órdenes, Conjunto de operaciones sistemáticas</label>
+              </p>
+         </td>
+      </tr>
+       <tr>
+          <td>3. <span class="peque">Para resolver un problema real la secuencia de pasos debe ser definida, precisa y finita</span>
+            <p><label><script type="text/javascript">dibujarRadio('3', 'a');</script> Verdadero.</label></p>
+          <p><label><script type="text/javascript">dibujarRadio('3', 'b');</script>Falso.</label></p>
+         </td>
+      </tr>
+        <tr>
+          <td>4. <span class="peque">Son características de los algoritmos:</span>
+            <p><label><script type="text/javascript">dibujarRadio('4', 'a');</script>Un número finito de órdenes, Precisión</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('4', 'b');</script>Corrección, Memoria utilizada</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('4', 'c');</script>Finitud, Tiempo necesario</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('4', 'd');</script>Precisión, Repetitividad</label></p>
+              </td>
+      </tr>
+        <tr>
+         <td>5. <span class="peque">El pseudocódigo es:</span>
+           <p><label><script type="text/javascript">dibujarRadio('5', 'a');</script>Representación muy detallada, Descripción flexible</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('5', 'b');</script>Estándar formal, Descripción flexible</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('5', 'c');</script>Representación muy detallada, Lenguaje formal de programación</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('5', 'd');</script>Solución del algoritmo, Lenguaje intermedio</label></p>
+         </td>
+        </tr>
+        <tr>
+          <td>6. <span class="peque">El pseudocódigo facilita transferir instrucciones complejas a los lenguajes de programación</span>
+            <p><label><script type="text/javascript">dibujarRadio('6', 'a');</script> Verdadero.</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('6', 'b');</script> Falso.</label></p>
+          </td>
+        </tr>
+       <tr>
+          <td>7. <span class="peque">Los lenguajes de programación son:</span>
+            <p><label><script type="text/javascript">dibujarRadio('7', 'a');</script>Paradigmas de programación, De propósito general o específico</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('7', 'b');</script>Imperativos por procedimientos, Declarativos funcional es y lógicos</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('7', 'c');</script>De propósito general o específico, De bajo o alto nivel</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('7', 'd');</script>Se organizan por Generaciones, De propósito general o específico</label></p>
+         </td>
+        </tr>
+		<tr>
+          <td>8. <span class="peque">Todos los lenguajes de programación se crearon para controlar el computador</span>
+            <p><label><script type="text/javascript">dibujarRadio('8', 'a');</script> Falso.</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('8', 'b');</script> Verdadero.</label></p>
+           </td>
+        </tr>
+		<tr>
+                    <td>9. <span class="peque">Son lenguajes de programación:</span>
+              <p><label><script type="text/javascript">dibujarRadio('9', 'a');</script>
+              HTML, C#
+              </label></p>
+              <p><label><script type="text/javascript">dibujarRadio('9', 'b');</script>Prolog, JSP</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('9', 'c');</script>Java, Python</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('9', 'd');</script>CSS, HTML</label></p>
+          </td>
+        </tr>
+ 		<tr>
+                    <td>10. <span class="peque">Son metodologías de desarrollo de software:</span>
+              <p><label><script type="text/javascript">dibujarRadio('10', 'a');</script> 
+              Starting, Prototipos</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('10', 'b');</script> 
+              Prototipos, Cascada</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('10', 'c');</script>
+                Kanban, Sprint</label></p>
+          <p><label><script type="text/javascript">dibujarRadio('10', 'd');</script> 
+            Scrum, Backlog</label></p>  </td>
+        </tr>   
+        <tr>
+          <td>11. <span class="peque">Son metodologías ágiles de desarrollo de software:</span>
+            <p><label><script type="text/javascript">dibujarRadio('11', 'a');</script>
+                    Cascada, Prototipos</label></p>
+          <p><label><script type="text/javascript">dibujarRadio('11', 'b');</script>
+                  Espiral, Cascada</label></p>
+          <p><label><script type="text/javascript">dibujarRadio('11', 'c');</script>
+                  XP –Programación Extrema, Espiral</label></p>
+          <p><label><script type="text/javascript">dibujarRadio('11', 'd');</script>
+                  Scrum, Kanban</label></p>
+         </td>
+      </tr>
+      <tr>
+                    <td>12. <span class="peque">Son Herramientas y ayudas de programación:</span>
+              <p><label><script type="text/javascript">dibujarRadio('12', 'a');</script> 
+              Los foros, Los lenguajes de programación</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('12', 'b');</script> 
+              Programas cliente/servidor, Habilidades en una lengua extranjera</label></p>
+              <p><label><script type="text/javascript">dibujarRadio('12', 'c');</script>
+                Comunidades online, Tener disciplina para leer y consultar</label></p>
+          <p><label><script type="text/javascript">dibujarRadio('12', 'd');</script> 
+            Desarrollar aplicaciones y programas, Los foros</label></p>  </td>
+        </tr>   
+    </table>
+	<div style="text-align:center">
+<input type="button" name="B1" value="Corregir" onclick="javascript:Resultados()" style="color: #0000FF" />
+<input type="reset" value="Restablecer" name="B2" onclick="javascript:BorrarImg()" style="color: #0000FF" />
+<input type="submit" value="Guardar Evaluación" style="color: #0000FF">
+</div>
+</form>
+    </body>
+</html>
